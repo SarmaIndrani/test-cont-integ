@@ -12,7 +12,7 @@ describe("SAMPLE UNIT TEST ", function(){
 	// #1 should return home page
 	it("should return home page", function(done){
 		// calling home page
-		console.log('Sample test 2');
+		console.log('Sample test 3');
 		server.get("/")
 		.expect("content-type", /text/)
 		.expect(200) // http response
